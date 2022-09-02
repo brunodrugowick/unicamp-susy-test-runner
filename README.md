@@ -14,10 +14,33 @@ sudo curl -fsSL "https://raw.githubusercontent.com/brunodrugowick/unicamp-susy-t
 
 ## Rodando
 
-Agora execute o scripte com duas entradas:
+O script espera receber um arquivo `.zip` com a seguinte estrutura:
 
-- O caminho para o arquivo zip que contem os testes abertos disponibilizados no Susy
-- O caminho para o seu script
+```bash
+open/
+├── arq01.in
+├── arq01.out
+├── arq02.in
+├── arq02.out
+├── arq03.in
+├── arq03.out
+├── arq04.in
+├── arq04.out
+├── arq05.in
+├── arq05.out
+├── arq06.in
+├── arq06.out
+├── arq07.in
+├── arq07.out
+├── arq08.in
+├── arq08.out
+├── arq09.in
+├── arq09.out
+├── arq10.in
+└── arq10.out
+```
+
+E um arquivo `.py` com o seu código. Ele será executado com `python3`.
 
 ### Exemplo
 
