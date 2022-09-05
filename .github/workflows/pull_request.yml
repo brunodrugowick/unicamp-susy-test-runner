@@ -20,29 +20,29 @@ jobs:
       - name: Run the script
         run: |
           read -r -d '' EXPECTED << EOM
-          
-          arq01 --> ERROR!
-                Got:        True
-                Expected:   False
-          arq02 --> OK
-          arq03 --> OK
-          arq04 --> ERROR!
-                Got:        True
-                Expected:   False
-          arq05 --> ERROR!
-                Got:        True
-                Expected:   False
-          arq06 --> OK
-          arq07 --> OK
-          arq08 --> ERROR!
-                Got:        True
-                Expected:   False
-          arq09 --> OK
-          arq10 --> ERROR!
-                Got:        True
-                Expected:   False
-  
-          EOM
+        
+        arq01 --> ERROR!
+              Got:        True
+              Expected:   False
+        arq02 --> OK
+        arq03 --> OK
+        arq04 --> ERROR!
+              Got:        True
+              Expected:   False
+        arq05 --> ERROR!
+              Got:        True
+              Expected:   False
+        arq06 --> OK
+        arq07 --> OK
+        arq08 --> ERROR!
+              Got:        True
+              Expected:   False
+        arq09 --> OK
+        arq10 --> ERROR!
+              Got:        True
+              Expected:   False
+        
+        EOM
           diff <(echo $EXPECTED) <(./test/test.sh)
 
   prod-check:
