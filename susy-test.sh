@@ -37,3 +37,4 @@ for file in $TEMP_DIR/open/*.in; do
   fi
 done
 
+echo ""
