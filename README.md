@@ -62,3 +62,29 @@ Execute no terminal:
 susy-test aux02.zip lab02.py
 ```
 
+Este é um exemplo do que você verá após executar o script:
+
+```bash
+
+arq01 --> ERROR!
+      Got:        True
+      Expected:   False
+arq02 --> OK
+arq03 --> OK
+arq04 --> ERROR!
+      Got:        True
+      Expected:   False
+arq05 --> ERROR!
+      Got:        True
+      Expected:   False
+arq06 --> OK
+arq07 --> OK
+arq08 --> ERROR!
+      Got:        True
+      Expected:   False
+arq09 --> OK
+arq10 --> ERROR!
+      Got:        True
+      Expected:   False
+
+```
